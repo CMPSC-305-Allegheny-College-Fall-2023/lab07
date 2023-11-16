@@ -30,24 +30,21 @@ Note: To populate your MongoDB, you can conveniently copy and paste the contents
 
 ## Deliverables
 
-Summary of the Required Deliverables
-Please submit your work by pushing it to your GitHub Classroom repository.
+Summary of the Required Deliverables. Please submit your work by pushing it to your GitHub Classroom repository.
 
-1. **Reflection document**: You will modify the file `writing/reflection.md` to respond to questions in the document.
-
-2. **Database-queries file**: You will submit your queries and responses in the File; (`writing/queries.txt`).
+**Database-queries file**: You will submit your queries and responses in the File; (`writing/queries.txt`).
 
 ### Screenshots
 
 If you would like to add screenshots to your work, please use the the following Markdown code;
 
-```
+``` markdown
 ![graphic](graphic.png)
 ```
 
 The following html code serves to scale-down your graphic.
 
-```
+``` markdown
 <img src="graphic.png" alt="drawing" width="200"/>
 ```
 
@@ -81,7 +78,7 @@ To learn more about creating and adding your ssh keys to your GitHub account. Pl
 
 As you are working on your lab, you are to commit and push regularly. The commands are the following.
 
-```
+``` bash
 git add -A
 git commit -m ‘‘Your notes about commit here’’
 git push
@@ -93,9 +90,7 @@ The grade that a student receives on this assignment will have the following com
 
 * **GitHub Actions CI Build Status [up to 15%]:**: For the lab repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes. This is only checking some baseline writing and commit requirements as well as correct running of the program. An additional reduction will be given if the commit log shows a cluster of commits at the end clearly used just to pass this requirement. An additional reduction will also be given if there is no commit during lab work times. All other requirements are evaluated manually.
 
-* **Mastery of Technical Writing [up to 25%]:**: Students will also receive a checkmark grade when the responses to the writing questions presented in the deliverable Files of the directory `writing/` that reveal a proficiency of both writing skills and technical knowledge. To receive a check mark grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
-
-* **Mastery of Technical Knowledge and Skills [up to 60%]**: Students will receive a portion of their assignment grade when their program implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this assignment. As a part of this grade, the instructor will assess aspects of the programming including, but not limited to, the completeness and the correctness of the program and the use of effective source code comments.
+* **Mastery of Technical Knowledge and Skills [up to 85%]**: Students will receive a portion of their assignment grade when their program implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this assignment. As a part of this grade, the instructor will assess aspects of the programming including, but not limited to, the completeness and the correctness of the program and the use of effective source code comments.
 
 ## GatorGrade
 
