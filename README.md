@@ -22,7 +22,7 @@ In this lab, you will use Docker to create a functional local MongoDB. In class,
 
 ## Instructions
 
-The data was downloaded from [https://json-generator.com/](https://json-generator.com/) and is completely fictitious -- none of the information relates to real people or companies. The data has been saved in `json` formatting and is available in `data/dataset.json`. Your task is to use this data to create a local MongoDB database. You will then use your database to respond to the query challenges found in the File `writing/queries.md`.
+The data was downloaded from [https://json-generator.com/](https://json-generator.com/) and is completely fictitious -- none of the information relates to real people or companies. The data has been saved in `json` formatting and is available in `data/dataset.json`. Your task is to use this data to create a local MongoDB database. You will then use your database to respond to the query challenges found in the File `src/queries.md`.
 
 Note: To populate your MongoDB, you can conveniently copy and paste the contents of the `json` file into the MongoDB client.
 
@@ -32,7 +32,7 @@ Note: To populate your MongoDB, you can conveniently copy and paste the contents
 
 Summary of the Required Deliverables. Please submit your work by pushing it to your GitHub Classroom repository.
 
-**Database-queries file**: You will submit your queries and responses in the File; (`writing/queries.txt`).
+**Database-queries file**: You will submit your queries and responses in the File; (`src/queries.txt`).
 
 ### Screenshots
 
