@@ -26,6 +26,46 @@ The data was downloaded from [https://json-generator.com/](https://json-generato
 
 Note: To populate your MongoDB, you can conveniently copy and paste the contents of the `json` file into the MongoDB client.
 
+### Commands
+
+To start your Docker container and run MongoDB, follow these commands. Note: these commands were discussed in class.
+
+* Make directory where we store data
+  * Unix: `mkdir -p ~/mongodata`
+  * Windows: `mkdir C:\Users\olive\OneDrive\mongodata`
+
+* Build a container with persistant data
+  * Unix: `sudo docker run -it -v ~/mongodata:/data/db --name mongodb -d mongo`
+  * Windows: `docker run -it -v C:\Users\olive\OneDrive\mongodata:/data/db --name mongodb -d mongo`
+
+Note: Omit writing `sudo` for the following Windows commands.
+
+* Check logs to check that container is running
+  * `sudo docker logs mongodb`
+
+* Check that container is running
+  * `sudo docker ps`
+
+* Run the container we just built
+  * `sudo docker exec -it mongodb bash`
+
+* Initiate the mongodb shell (from inside the container)
+  * `mongosh`
+
+* Stop container
+  * `sudo docker stop mongodb`
+
+* Start container (go back into the container to work with MongoDB)
+  * `sudo docker start mongodb`
+
+ Note: These are destructive commands to remove your container. It is unlikely that you will need these commands. They are here in case you feel like removing a container to rebuild it again.
+
+* Remove the image
+  * `sudo docker image rm mongo -f`
+
+* Prune -- Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes. 
+  * `sudo docker system prune`
+
 ---
 
 ## Deliverables
