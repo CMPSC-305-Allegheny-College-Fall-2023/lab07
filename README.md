@@ -63,7 +63,7 @@ Note: Omit writing `sudo` for the following Windows commands.
 * Remove the image
   * `sudo docker image rm mongo -f`
 
-* Prune -- Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes. 
+* Prune -- Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.
   * `sudo docker system prune`
 
 ---
